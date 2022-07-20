@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ARPG Prototype</title>
+    <!-- Utility -->
+    <script type="text/javascript" src="./src/util.js"></script>
+    <script type="text/javascript" src="./src/point.js"></script>
+    <script type="text/javascript" src="./src/vector.js"></script>
+    <script type="text/javascript" src="./src/timer.js"></script>
+    <script type="text/javascript" src="./src/assetmanager.js"></script>
+    <script type="text/javascript" src="./src/levels.js"></script>
+    <!-- Engine -->
+	<script type="text/javascript" src="./src/scenemanager.js"></script>
+	<script type="text/javascript" src="./src/gameengine.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <!-- Item Utilities -->
+	<script type="text/javascript" src="./src/animator.js"></script>
+    <script type="text/javascript" src="./src/boundingbox.js"></script>
+    <!-- Entity -->
+</head>
+<body style="background-color:rgb(100, 100, 100);">
+    <center><div>
+    <canvas id="gameWorld" width="1024" height="768" style="background: white; border: 1px solid black" tabindex ="0" autofocus muted="muted"></canvas>
+    </div>
+
+    <div>
+    <input type="checkbox" id="myMusic" checked> Toggle music. 
+    <input type="checkbox" id="myDebug" checked> Toggle Debug.<br>
+    <label for="fname">input 1:</label>
+    <input type="text" id="myIn1" name="myIn1"><br>
+    <label for="fname">input 2:</label>
+    <input type="text" id="myIn2" name="myIn2"><br>
+    <label for="fname">input 3:</label>
+    <input type="text" id="myIn3" name="myIn3"><br>
+    </div></center>
+    
+ </div>
+	
+</body>
+</html>
